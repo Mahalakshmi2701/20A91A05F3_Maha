@@ -1,0 +1,10 @@
+a=int(input("enter a number"))
+if(a<20):
+   print("a is <20")
+   print("hello")
+OUTPUT:
+  enter a number15
+a is <20
+hello
+
+Process finished. print("hello")
