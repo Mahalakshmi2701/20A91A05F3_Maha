@@ -1,0 +1,15 @@
+a=int(input("enter a number"))
+b=int(input("enter b number"))
+if a%2==1:
+    print("a is odd")
+else:
+    print("a is even")
+if b%2==1:
+    print("b is odd")
+else:
+    print("b is even")
+OUTPUT:
+enter a number1736
+enter b number2333
+a is even
+b is odd
