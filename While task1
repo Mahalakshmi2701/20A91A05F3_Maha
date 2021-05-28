@@ -1,0 +1,11 @@
+a=int(input("enter initial value"))
+b=int(input("enter final value"))
+c=int(input("enter step value"))
+while a<=b:
+      print(a, end=",")
+      a=a+c
+OUTPUT:
+enter initial value2
+enter final value10
+enter step value2
+2,4,6,8,10,
