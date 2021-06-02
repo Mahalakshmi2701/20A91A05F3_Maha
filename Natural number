@@ -1,0 +1,13 @@
+n=int(input("enter starting number"))
+e=int(input("enter ending number"))
+for n in range(n, e+1):
+        print(n)
+OUTPUT:
+enter starting number1
+enter ending number6
+1
+2
+3
+4
+5
+6
