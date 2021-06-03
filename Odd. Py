@@ -1,0 +1,13 @@
+n=int(input("enter starting number"))
+e=int(input("enter ending number"))
+for n in range(n, e+1):
+      if(n%2!=0):
+       print (n)
+OUTPUT:
+enter starting number1
+enter ending number10
+1
+3
+5
+7
+9
