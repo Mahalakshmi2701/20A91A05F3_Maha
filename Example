@@ -1,0 +1,24 @@
+'''a    b
+   33   66
+   16   132
+   8    264
+   4    528
+   2    1056
+   1    2112
+  res=66+2112=  2178
+
+def fun(a,b):
+    result=0
+    while(a>=1):
+        if(a%2!=0):
+            result+=b
+        a=a//2
+        b=b*2
+    return result
+a,b=map(int,input().split())
+result=fun(a,b)
+print(result)
+ 
+ output:
+ 33 66
+2178
